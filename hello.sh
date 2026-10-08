@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-echo "Hello $1, comment tu va ?"
+read -p "entrez votre prénom :" prenom
+
+echo "Hello $prenom  comment tu va ?"
+
